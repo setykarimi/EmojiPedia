@@ -6,6 +6,7 @@ function createEmoji(emojiPedia)
 {
     return(
         <Entry 
+        key = {emojiPedia.id}
         emoji = {emojiPedia.emoji}
         name = {emojiPedia.name}
         description = {emojiPedia.meaning}
